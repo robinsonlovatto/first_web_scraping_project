@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "first-web-scraping-project"
+version = "0.1.0"
+description = ""
+authors = ["Robinson Lovatto <robinson.lovatto@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = "^4.22.0"
+beautifulsoup4 = "^4.12.3"
+pandas = "^2.2.2"
+requests = "^2.32.3"
+redis = "^5.0.7"
+pymongo = "^4.8.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
