@@ -1,4 +1,4 @@
-from src.browser.tools.redis import RedisClient
+from browser.tools.redis import RedisClient
 
 redis = RedisClient.get()
 mercado_livre_config = """{
@@ -22,7 +22,7 @@ mercado_livre_config = """{
     }
 }"""
 
-redis.set("Ml", mercado_livre_config)
+redis.set("MercadoLivre", mercado_livre_config)
 
 amazon_config = """{
     "link": {
